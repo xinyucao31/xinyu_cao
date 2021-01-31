@@ -35,17 +35,20 @@ Nano xinyu_cao_2.txt
 
 7. Answer questions 1 to 6 inside this file beneath every question. Then stage the changes and commit to branch bonus_2 with the commit message "Answer questions 1 to 6"
 
-
+git add xinyu_cao_2.txt
+git commit -m "Answer question 1 to 6"
 
 8. Get the status
-
+git status
 
 
 9. After writing the command in this file for step 8, stage the changes again and commit again, this time with commit message "Answer question 8"
-
+git add xinyu_cao_2.txt
+git commit -m "Answer question 8"
 
 
 10. Write the command to push bonus_2 to your repo, save this file, then execute the actual push command that you wrote below, then verify on GitHub whether all your changes are there, then do a pull request. The answer to this question is the push command.
+git push --set-upstream origin bonus_2
 
 
 
